@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unique Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Welcome to My Unique Website</h1>
+            <p>Your journey to creativity begins here</p>
+            <button onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This is where you explain the uniqueness of your brand. Add custom content here that describes your services, your passion, and your goals.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="card">
+            <h3>Web Design</h3>
+            <p>Beautiful, responsive, and engaging website designs.</p>
+        </div>
+        <div class="card">
+            <h3>Development</h3>
+            <p>Cutting-edge web applications to bring your ideas to life.</p>
+        </div>
+        <div class="card">
+            <h3>Consultation</h3>
+            <p>Professional advice to ensure your project’s success.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Unique Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
